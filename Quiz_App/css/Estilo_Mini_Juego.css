@@ -1,0 +1,102 @@
+.gameRPS footer{
+    text-align: center;
+    padding: 5px;
+}
+
+.gameRPS footer button{
+    cursor: pointer;
+    padding: 8px;
+    background-color: #fff;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.gameRPS footer button:hover{
+    background-color: #007bff;
+    color: #fff;
+}
+
+.gameRPS button{
+    border-radius: 8px;    
+    margin: 5px;
+    margin-bottom: 4px;
+}
+
+.gameRPS{
+    max-width: 450px;
+    height: 100vh;
+    max-height: 750px;
+    margin: 0 auto;
+    /* background: #fff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2),
+                0px 6px 20px 0 rgba(0,0,0,0.19);
+    transition: all 0.3s ease;
+    user-select: none;
+    opacity: 0;
+    pointer-events: none;
+
+    background-size: cover;
+    color: #fff;
+    background-position: center;
+    background: linear-gradient(251deg,
+    #00b8ff52 -53%,
+    rgba(255, 255, 255, 0) 65%);
+    justify-content: center;
+    backdrop-filter: blur(30px);
+}
+
+.gameRPS.activeMiniGame{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.gameRPS h1{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+#resultGame{
+   text-align: center;
+}
+
+#resultGame img{
+    width: 30%;
+}
+
+#start-text{
+    font-size: 20px;
+    padding: 20px;
+}
+
+#group-btn{
+    width: 100%;
+    display: flex;
+}
+
+#group-btn button{
+    /* background-size: cover;
+    color: #fff;
+    background-position: center;
+    background: linear-gradient(251deg,
+    #00b8ff52 -53%,
+    rgba(255, 255, 255, 0) 65%);
+    justify-content: center;
+    backdrop-filter: blur(30px); */
+
+    background: transparent;
+    border: 1p solid white;
+    
+    cursor: pointer;
+}
+
+#group-btn > button > img{
+    width: 100%;
+}
